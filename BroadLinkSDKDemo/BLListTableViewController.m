@@ -347,14 +347,7 @@
     //NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:[NSNumber numberWithInt:12] forKey:@"api_id"];
     [dic setObject:@"device_add" forKey:@"command"];
-//    [dic setObject:info.mac forKey:@"mac"];
-//    [dic setObject:info.type forKey:@"type"];
-//    [dic setObject:info.name forKey:@"name"];
-//    [dic setObject:[NSNumber numberWithInt:info.lock] forKey:@"lock"];
-//    [dic setObject:[NSNumber numberWithUnsignedInt:info.password] forKey:@"password"];
-//    [dic setObject:[NSNumber numberWithInt:info.id] forKey:@"id"];
-//    [dic setObject:[NSNumber numberWithInt:info.subdevice] forKey:@"subdevice"];
-//    [dic setObject:info.key forKey:@"key"];
+
     NSLog(@"%@", dic);
     NSData *requestData = [dic JSONData];
     
