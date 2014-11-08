@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>7</integer>
+		<key>key</key>
+		<string>162f7d254da2f31483156a04ba88e073</string>
+		<key>lock</key>
+		<integer>0</integer>
+		<key>mac</key>
+		<string>b4:43:0d:38:56:3b</string>
+		<key>name</key>
+		<string>智能遥控</string>
+		<key>password</key>
+		<integer>834931085</integer>
+		<key>subdevice</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string>RM2</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>key</key>
+		<string>dcb2981213260f0249998571800cfc60</string>
+		<key>lock</key>
+		<integer>0</integer>
+		<key>mac</key>
+		<string>b4:43:0d:11:1c:2e</string>
+		<key>name</key>
+		<string>智能插座</string>
+		<key>password</key>
+		<integer>2049185652</integer>
+		<key>subdevice</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string>SP2</string>
+	</dict>
+</array>
+</plist>
