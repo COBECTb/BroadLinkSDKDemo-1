@@ -131,7 +131,25 @@
 /*Check button action*/
 - (void)checkButtonClicked:(UIButton *)button
 {
-
+//    NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+//    [dic setObject:[NSNumber numberWithInt:133] forKey:@"api_id"];
+//    [dic setObject:@"rm2_code" forKey:@"command"];
+//    [dic setObject:_info.mac forKey:@"mac"];
+//    NSData *requestData = [dic JSONData];
+//    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+//        NSData *responseData = [_network requestDispatch:requestData];
+//        NSLog(@"%@", [responseData objectFromJSONData]);
+//        if ([[[responseData objectFromJSONData] objectForKey:@"code"] intValue] == 0)
+//        {
+//            isGetData = YES;
+//            _rmCode = [[responseData objectFromJSONData] objectForKey:@"data"];
+//        }
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:nil message:[[responseData objectFromJSONData] objectForKey:@"msg"] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+//            [alertView show];
+//        });
+//        
+//    });
     
     BLRM2StudyModel * rm2StudyModel = [BLRM2StudyModel studyModelWithArgument:_info];
     [rm2StudyModel rm2GetControlData];
